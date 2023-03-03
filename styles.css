@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    background-color: black;
+    opacity: 0.8;
+    /* padding: 5px 30px; */
+}
+
+#logo img{
+    width:6vw;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 21px;
+    margin: 50px;
+    padding: 10px;
+    color: white;
+
+}
+#navbar ul li a:hover{
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#home img{
+    width: 98.9vw;
+    height: 562px;
+}
+
+.black{
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    padding: 3px 29px;
+    position: fixed;
+}
+
+#about{
+    /* margin: 20px; */
+    padding: 35px 98px;
+    text-align: justify;
+    /* box-shadow: 0px 1px 10px; */
+    box-shadow: 0px 15px 10px -15px;
+}
+
+.header{
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 22px;
+}
+
+.con{
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 36px;
+}
+
+#about p{
+    font-size: 21px;
+    padding: 15px;
+}
+
+.conForm{
+    margin-bottom:4% ;
+}
+
+form{
+    /* margin: 10px; */
+    margin: 1% 20%;
+    background-color: whitesmoke;
+    padding: 1% 10%;
+}
+
+input{
+    /* width: 20vw; */
+    width: 34vw;
+    padding: 0.7%;
+    font-size: 0.9rem;
+}
+
+.mb-3{
+    margin: 1%;
+    padding: 2%;
+}
+
+.btn{
+    margin: 1%;
+    padding: 2%;
+}
+
+.button{
+    border-radius: 11px;
+    padding: 0.8%;
+}
+
+.button:hover{
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+label.form-label{
+    font-size: 18px;
+}
+
+.font{
+    font-size: 1rem;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+}
+
+.cont{
+    /* display: flex;
+    margin: 2% 31%; */
+    display: flex;
+    margin: 1% 30%;
+    height: 10vh;
+    justify-content: space-around;
+}
+
+.connect{
+    margin: 7% 19%;
+    font-size: 1rem;
+}
+
+.fb{
+    width:3.2vw;
+    margin: 36% 8%;
+}
+
+.phn{
+    width: 1vw;
+    margin: 36% 8%;
+}
+
+.insta{
+    width: 3vw;
+    margin: 36% 8%;
+}
+
+.insta:hover{
+    cursor: pointer;
+}
+
+.fb:hover{
+    cursor: pointer;
+}
+
+.map img{
+    height: 35vh;
+    width: 98.9vw;
+    opacity: 0.6;
+    cursor: pointer;
+}
